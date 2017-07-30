@@ -72,10 +72,10 @@ h2 {
   text-decoration: none;
   background: #4aaaa5;
 }
-/*nav {
+nav {
   float: right;
   margin-top: 25px;
-}*/
+}
 nav a {
   display: inline-block;
   padding-left: 15px;
@@ -156,8 +156,8 @@ h3,
 }
 .work:nth-child(even) {
   margin-right: 40px;
-}*/
-/*.work img {
+}
+.work img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
@@ -215,16 +215,25 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
+h3 {
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  padding:10px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+.carousel-caption {
+  left: 4%;
+  right: 4%;
+}
 @media screen and (max-width: 640px) {
-  body {
-    width: 100%;
-  }
-  #logo {
+    #logo {
     float: left;
     width: 100%;
     margin:0px;
-  }
+}
   nav {
     float: left;
     margin-top: 10px;
@@ -233,16 +242,9 @@ input[type=submit] {
   nav a {
     margin-left: 100px;
   }
-  #main {
-    margin-top: 60px;
-  }
-  #Bio-Image {
-    width: 100%;
-  }
 }
 /*
    * Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
    * Main header background color: `#ffffff`
    * Main header border color: `#cccccc`
    * Footer background color: `#666666`
